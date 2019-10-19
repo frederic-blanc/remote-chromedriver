@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd ${HOME}
+
 while [[ $# -gt 0 ]]; do
     key="$1"
     case $key in
